@@ -25,35 +25,87 @@
   margin-bottom: 50px;
 }
 
-/* .about {
-  margin-top: 150px;
-  text-align: center;
-} */
 
 .about {
-  margin-inline: 200px;
-  margin-top: 150px;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 1fr;
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
+  margin-top: 220px;
+  margin-bottom: 220px;
+  display: flex;
+  justify-content: space-evenly;
 }
 
-.whoWeAre{
-  background-color: aqua;
-  padding: 50px;
-  grid-area: 1 / 1 / 2 / 3;
-}
-.whoWeAre p{
-  width: 50%;
+.whoWeAre {
+  padding-left: 200px;
+  padding-right: 100px;
+  width: 60%;
 }
 
 .aboutImage {
-  background-color: rgba(0, 0, 0, 0.151);
-  padding: 50px;
-  grid-area: 1 / 2 / 2 / 3;
+  width: 40%;
 }
+
+.centerImage {
+  margin-left: 100px;
+}
+
+.courseSection {
+  text-align: center;
+}
+
+.month {
+  
+  height: 200vh;
+  display: flex;
+}
+
+.monthImage {
+  width: 60%;
+  height: 200vh;
+
+}
+
+.stickyContainer {
+  height: 100vh;
+  position: sticky;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.monthDetails {
+  width: 40%;
+}
+
+.monthDetails div {
+  display: flex;
+  height: 100vh;
+  padding-inline: 50px;
+  text-align: left;
+  flex-direction: column;
+  vertical-align: middle;
+  /* align-content: center; */
+  justify-content: center;
+}
+
+
+
+.feedbackCard {
+  height: fit-content !important;
+  margin: auto;
+  width: 90%;
+  border-radius: 20px;
+  /* border: 1px solid yellow; */
+  box-shadow: 0px 0px 3px rgb(106, 106, 106);
+
+}
+
+.feedbackCard h4 {
+  margin: 0px;
+}
+
 
 
 @media screen and (max-width: 800px) {
@@ -65,14 +117,26 @@
     height: 250px;
   }
 
+  
+
   .about {
-    margin: 10px;
+    margin-top: 100px;
+    flex-direction: column-reverse;
+
+  }
+  .whoWeAre {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .aboutImage {
+    text-align: center;
+    width: 100%;
   }
 
-  .whoWeAre{
-    background-color: aqua;
-    padding: 0px;
-    grid-area: 1 / 1 / 2 / 3;
+  .about-image Image {
+    margin: auto;
   }
 
 }

@@ -32,9 +32,52 @@ export default function Home() {
 
       <div className={styles.aboutImage}>
 
+        <Image src={'/logo.png'} width={300} height={300} className={styles.centerImage} />
 
 
       </div>
+
+    </div>
+
+    {/* Course Section */}
+
+    <div className={styles.courseSection}>
+
+    <h2>3 Months Trading Program</h2>
+    <p className="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum itaque nemo doloribus.</p>
+
+{/* Month One  */}
+    <div className={styles.month}>
+
+      <div className={styles.monthImage}>
+        <div className={styles.stickyContainer}>
+        <div><h2>Month One</h2></div>
+        </div>
+      </div>
+
+      <div className={styles.monthDetails}>
+
+        <div >
+
+          <h3>Get To Know About Share Market</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore optio exercitationem rerum voluptatibus quibusdam quos animi natus! Nesciunt suscipit ipsum, repudiandae consectetur dignissimos deleniti vitae!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt nobis ab ipsum dicta, explicabo recusandae vitae dolores molestias itaque consequuntur fuga iste possimus nulla omnis suscipit! Autem cumque illo itaque?</p>
+          
+        </div>
+
+        <div >
+          <div className={styles.feedbackCard}>
+          <p className="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error possimus a aut soluta aliquam voluptate nam! Culpa sit reiciendis nisi itaque perferendis ducimus maiores delectus.</p>
+
+          <h4>Student Name</h4>
+          <p>Stockraja Student</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
 
 
 
