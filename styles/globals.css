@@ -37,12 +37,12 @@ h4 {
 }
 
 .subtitle {
-  font-size: 1.25rem !important;
+  font-size: 1.3rem !important;
 }
 
 p {
-  font-size: 1rem;
-  line-height: 1.5rem;
+  font-size: 1.125rem;
+  line-height: 1.6rem;
 }
 
 /* p = 18
@@ -64,15 +64,28 @@ button {
 }
 
 .highlight {
-  background-color: #f7c222;
+  width: fit-content;
+  background: linear-gradient(
+    to bottom,
+    transparent 60%,
+    #f7c222 70%
+  );
+  border-radius: 3px;
 }
 
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 800px) {
 
   h1 {
     font-size: 3.5rem;
   }
 
+  p {
+    font-size: 1rem;
+  }
+
+  .subtitle {
+    font-size: 1.125rem !important;
+  }
 
 }

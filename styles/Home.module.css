@@ -27,10 +27,10 @@
 
 
 .about {
-  margin-top: 220px;
-  margin-bottom: 220px;
+  height: 100vh;
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
 }
 
 .whoWeAre {
@@ -52,12 +52,13 @@
 }
 
 .month {
-  
+  margin-inline: 100px;
   height: 200vh;
   display: flex;
 }
 
 .monthImage {
+  /* background-color: blanchedalmond; */
   width: 60%;
   height: 200vh;
 
@@ -76,7 +77,8 @@
 
 
 .monthDetails {
-  width: 40%;
+  /* background-color: aqua; */
+  width: 50%;
 }
 
 .monthDetails div {
@@ -90,15 +92,19 @@
   justify-content: center;
 }
 
+.feedbackCard {
+  padding-inline: 25px !important;
+}
+
 
 
 .feedbackCard {
   height: fit-content !important;
-  margin: auto;
+  /* margin: auto; */
   width: 90%;
   border-radius: 20px;
   /* border: 1px solid yellow; */
-  box-shadow: 0px 0px 3px rgb(106, 106, 106);
+  box-shadow: 0px 0px 5px rgb(106, 106, 106);
 
 }
 
@@ -107,8 +113,21 @@
 }
 
 
+.endNote {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
+}
+
+.endNote h2 {
+  margin: auto;
+}
+
 
 @media screen and (max-width: 800px) {
+  .topSection p{
+    padding: 10px;
+  }
 
   .topSection iframe {
     border-radius: 10px;
@@ -117,17 +136,21 @@
     height: 250px;
   }
 
-  
-
   .about {
     margin-top: 100px;
     flex-direction: column-reverse;
-
+    /* background-color: aqua; */
   }
+
   .whoWeAre {
     width: 100%;
     padding: 20px;
     text-align: center;
+  }
+
+  .whoWeAre h2 {
+    margin: auto;
+    margin-bottom: 30px;
   }
   
   .aboutImage {
@@ -138,5 +161,54 @@
   .about-image Image {
     margin: auto;
   }
+
+  .courseSection {
+    margin-top: -100px;
+    /* background-color: bisque; */
+  }
+  .courseSection {
+    margin: 20px;
+  }
+
+  .month {
+    height: auto;
+    margin-inline: 0px;
+    flex-direction: column-reverse;
+  }
+
+  .monthImage {
+    width: 100%;
+    height: auto;
+  }
+
+  .stickyContainer {
+    height: auto;
+    position: relative;
+  }
+
+  .monthDetails {
+    width: 100%;
+  }
+
+  .monthDetails div {
+    height: auto;
+    padding: 0px;
+  }
+
+  .feedbackCard {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 20px !important;
+  }
+
+  .feedbackCard p {
+    margin: 0px;
+  }
+  .feedbackCard h4 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
 
 }

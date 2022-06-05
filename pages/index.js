@@ -26,7 +26,7 @@ export default function Home() {
     <div className={styles.about}>
 
       <div className={styles.whoWeAre}>
-        <h2>Who We Are?</h2>
+        <h2 className='highlight'>Who We Are?</h2>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus dolor asperiores, tempore vel amet libero doloribus ea ex alias, necessitatibus totam perspiciatis cumque pariatur ad incidunt excepturi ipsum fugit dolores odit aspernatur quasi. Magnam autem ducimus accusamus, fugit assumenda aliquam consequatur maiores eveniet similique, iure temporibus ex officia? Exercitationem, ratione?</p>
       </div>
 
@@ -43,45 +43,127 @@ export default function Home() {
 
     <div className={styles.courseSection}>
 
-    <h2>3 Months Trading Program</h2>
-    <p className="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum itaque nemo doloribus.</p>
+      <h2 >3 Months Trading Program</h2>
+      <p className="subtitle" id='courseSubtitle'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum itaque nemo doloribus.</p>
 
-{/* Month One  */}
-    <div className={styles.month}>
+      {/* Month One  */}
+      <div className={styles.month}>
 
-      <div className={styles.monthImage}>
-        <div className={styles.stickyContainer}>
-        <div><h2>Month One</h2></div>
+        <div className={styles.monthDetails}>
+
+          <div >
+
+            <h3 className='highlight'>Month 1</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore optio exercitationem rerum voluptatibus quibusdam quos animi natus! Nesciunt suscipit ipsum, repudiandae consectetur dignissimos deleniti vitae!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt nobis ab ipsum dicta, explicabo recusandae vitae dolores molestias itaque consequuntur fuga iste possimus nulla omnis suscipit! Autem cumque illo itaque?</p>
+
+          </div>
+
+          <div >
+            <div className={styles.feedbackCard}>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error possimus a aut soluta aliquam voluptate nam! Culpa sit reiciendis nisi itaque perferendis ducimus maiores delectus.</p>
+
+              <h4>Student Name</h4>
+              <p>Stockraja Student</p>
+            </div>
+          </div>
+
         </div>
-      </div>
 
-      <div className={styles.monthDetails}>
-
-        <div >
-
-          <h3>Get To Know About Share Market</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore optio exercitationem rerum voluptatibus quibusdam quos animi natus! Nesciunt suscipit ipsum, repudiandae consectetur dignissimos deleniti vitae!</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt nobis ab ipsum dicta, explicabo recusandae vitae dolores molestias itaque consequuntur fuga iste possimus nulla omnis suscipit! Autem cumque illo itaque?</p>
-          
-        </div>
-
-        <div >
-          <div className={styles.feedbackCard}>
-          <p className="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error possimus a aut soluta aliquam voluptate nam! Culpa sit reiciendis nisi itaque perferendis ducimus maiores delectus.</p>
-
-          <h4>Student Name</h4>
-          <p>Stockraja Student</p>
+        <div className={styles.monthImage}>
+          <div className={styles.stickyContainer}>
+            <div><h2>Month One IMG</h2></div>
           </div>
         </div>
 
       </div>
 
+
+
+
+
+
+
+      {/* Month Two */}
+      <div className={styles.month}>
+
+        <div className={styles.monthDetails}>
+
+          <div >
+
+            <h3 className='highlight'>Month 2</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore optio exercitationem rerum voluptatibus quibusdam quos animi natus! Nesciunt suscipit ipsum, repudiandae consectetur dignissimos deleniti vitae!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt nobis ab ipsum dicta, explicabo recusandae vitae dolores molestias itaque consequuntur fuga iste possimus nulla omnis suscipit! Autem cumque illo itaque?</p>
+
+          </div>
+
+          <div >
+            <div className={styles.feedbackCard}>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error possimus a aut soluta aliquam voluptate nam! Culpa sit reiciendis nisi itaque perferendis ducimus maiores delectus.</p>
+
+              <h4>Student Name</h4>
+              <p>Stockraja Student</p>
+            </div>
+          </div>
+
+        </div>
+
+        <div className={styles.monthImage}>
+          <div className={styles.stickyContainer}>
+            <div><h2>Month Two</h2></div>
+          </div>
+        </div>
+
+      </div>
+      {/* Month Three */}
+      <div className={styles.month}>
+
+        <div className={styles.monthDetails}>
+
+          <div >
+
+            <h3 className='highlight'>Month 3</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore optio exercitationem rerum voluptatibus quibusdam quos animi natus! Nesciunt suscipit ipsum, repudiandae consectetur dignissimos deleniti vitae!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt nobis ab ipsum dicta, explicabo recusandae vitae dolores molestias itaque consequuntur fuga iste possimus nulla omnis suscipit! Autem cumque illo itaque?</p>
+
+          </div>
+
+          <div >
+            <div className={styles.feedbackCard}>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error possimus a aut soluta aliquam voluptate nam! Culpa sit reiciendis nisi itaque perferendis ducimus maiores delectus.</p>
+
+              <h4>Student Name</h4>
+              <p>Stockraja Student</p>
+            </div>
+          </div>
+
+        </div>
+
+        <div className={styles.monthImage}>
+          <div className={styles.stickyContainer}>
+            <div><h2>Month Three</h2></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    {/* Blogs */}
+    {/* Tools  */}
+
+    {/* End Note  */}
+    <div className={styles.endNote}>
+
+    <h2><span className='highlight'>Start Your Trading Carrer With Us.</span></h2>
+
+<p className="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum itaque nemo doloribus.</p>
+
+<button>Contact US</button>
+
     </div>
 
 
 
-
-    </div>
 
 
   </>
