@@ -171,6 +171,7 @@
   }
 
   .month {
+    margin-top: 100px;
     height: auto;
     margin-inline: 0px;
     flex-direction: column-reverse;
@@ -208,6 +209,10 @@
   .feedbackCard h4 {
     padding-top: 10px;
     padding-bottom: 10px;
+  }
+
+  .endNote p {
+    padding-inline: 20px;
   }
 
 
