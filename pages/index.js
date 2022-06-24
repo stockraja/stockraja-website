@@ -31,13 +31,7 @@ export default function Home() {
         <div className={styles.whoWeAre}>
           <h2 className="highlight">Who We Are?</h2>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus
-            dolor asperiores, tempore vel amet libero doloribus ea ex alias,
-            necessitatibus totam perspiciatis cumque pariatur ad incidunt
-            excepturi ipsum fugit dolores odit aspernatur quasi. Magnam autem
-            ducimus accusamus, fugit assumenda aliquam consequatur maiores
-            eveniet similique, iure temporibus ex officia? Exercitationem,
-            ratione?
+            We are a young team of fulltime Stockmarket Trader and Investor. Our mission is to spread awareness about stock market as well as other financial market. To go to roots of basics and take our students to a stage of professionalism. 
           </p>
         </div>
 
@@ -66,18 +60,18 @@ export default function Home() {
           <div className={styles.monthDetails}>
             <div>
               <h3 className="highlight">Month 1</h3>
+
+              <p className="bold">Live online sessions from beginner to advance</p>
+
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore
-                optio exercitationem rerum voluptatibus quibusdam quos animi
-                natus! Nesciunt suscipit ipsum, repudiandae consectetur
-                dignissimos deleniti vitae!
+                In this month we are conducting live session on basic to advenced share market. In this we are covering basics of Stock market, Fundamental analysis, Technical analysis, Advanced technical analysis, Equity, Futures, Commodities, Options, etc.
               </p>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Nesciunt nobis ab ipsum dicta, explicabo recusandae vitae
-                dolores molestias itaque consequuntur fuga iste possimus nulla
-                omnis suscipit! Autem cumque illo itaque?
+                During this course our focus will be on making you a good trader. So we also have sessions on Trading Strategies , Trading Psychology and Money Management.
               </p>
+
+
+              
             </div>
 
             <div>
@@ -114,6 +108,7 @@ export default function Home() {
           <div className={styles.monthDetails}>
             <div>
               <h3 className="highlight">Month 2</h3>
+              <p className="bold">Dummy Money Trading / Paper Trading</p>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore
                 optio exercitationem rerum voluptatibus quibusdam quos animi
@@ -161,6 +156,7 @@ export default function Home() {
           <div className={styles.monthDetails}>
             <div>
               <h3 className="highlight">Month 3</h3>
+              <p className="bold">Trading with real money under our guidence</p>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore
                 optio exercitationem rerum voluptatibus quibusdam quos animi
@@ -177,13 +173,13 @@ export default function Home() {
 
             <div>
               <div className={styles.feedbackCard}>
+                
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
-                  possimus a aut soluta aliquam voluptate nam! Culpa sit
-                  reiciendis nisi itaque perferendis ducimus maiores delectus.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, perspiciatis ratione. Sunt quis eaque dolor praesentium sit iste, amet consectetur adipisicing elit. Est, perspiciatis ratione. 
                 </p>
+                
 
-                <h4>Student Name</h4>
+                <p className="bold">Student Name</p>
                 <p>Stockraja Student</p>
               </div>
             </div>
