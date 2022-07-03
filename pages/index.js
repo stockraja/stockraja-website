@@ -7,7 +7,7 @@ export default function Home() {
     <>
       <div className={styles.topSection}>
         <h1>
-          WELCOME TO <span className="highlight"> STOCKRAJA </span>
+          <strong> WELCOME TO <span className="highlight"> STOCKRAJA </span></strong>
         </h1>
 
         <p className="subtitle">
@@ -207,12 +207,11 @@ export default function Home() {
       {/* End Note  */}
       <div className={styles.endNote}>
         <h2>
-          <span className="highlight">Start Your Trading Carrer With Us.</span>
+          Don&apos;t Miss This <span className="highlight">Golden</span> Opportuinity.
         </h2>
 
         <p className="subtitle">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum itaque
-          nemo doloribus.
+          Dont Miss This Golden Opportuinity.
         </p>
 
         <button>Contact US</button>
