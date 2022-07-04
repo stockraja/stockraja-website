@@ -58,47 +58,52 @@ export default function Home() {
         {/* Month One  */}
         <div className={styles.month}>
           <div className={styles.monthDetails}>
-            <div>
+            <div className={styles.hfull}>
               <h3 className="highlight">Month 1</h3>
 
               <p className="bold">Live online sessions from beginner to advance</p>
 
-              <p>
+              {/* <p>
                 In this month we are conducting live session on basic to advenced share market. In this we are covering basics of Stock market, Fundamental analysis, Technical analysis, Advanced technical analysis, Equity, Futures, Commodities, Options, etc.
               </p>
               <p>
                 During this course our focus will be on making you a good trader. So we also have sessions on Trading Strategies , Trading Psychology and Money Management.
-              </p>
+              </p> */}
+              {/* 20 words */}
+              <p> In this we are covering basics of Stock market, Fundamental analysis, Technical analysis, Advanced technical analysis, Equity, Futures, Commodities, Options, etc.</p>
 
 
               
             </div>
 
-            <div>
-              <div className={styles.feedbackCard}>
+            <div className={styles.hfull}>
+            <div className={styles.feedbackCard}>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
-                  possimus a aut soluta aliquam voluptate nam! Culpa sit
-                  reiciendis nisi itaque perferendis ducimus maiores delectus.
+                “FigJam adds a whole new level of end-to-end collaboration—from brainstorming, research workshops, to design jams.”
                 </p>
 
-                <h4>Student Name</h4>
-                <p>Stockraja Student</p>
+                <span className={styles.card_profile}>
+                  <Image src='/logo.png' width={50} height={50} alt="feedback by"/>
+                  <div className={styles.feedback_by}>
+                    <p className="bolder">Pranit Patil</p>
+                    <p className="bold">Student at Stockraja</p>
+                  </div>
+                </span>
+                
               </div>
             </div>
           </div>
 
           <div className={styles.monthImage}>
             <div className={styles.stickyContainer}>
-              <div>
                 <Image
                   src="/month1.png"
                   alt="Stockraja Logo"
-                  width={500}
-                  height={500}
+                  width={700}
+                  height={700}
+                  // layout="fill"
                   className={styles.centerImage}
                 />
-              </div>
             </div>
           </div>
         </div>
@@ -106,96 +111,85 @@ export default function Home() {
         {/* Month Two */}
         <div className={styles.month}>
           <div className={styles.monthDetails}>
-            <div>
+            <div className={styles.hfull}>
               <h3 className="highlight">Month 2</h3>
               <p className="bold">Dummy Money Trading / Paper Trading</p>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore
-                optio exercitationem rerum voluptatibus quibusdam quos animi
-                natus! Nesciunt suscipit ipsum, repudiandae consectetur
-                dignissimos deleniti vitae!
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Nesciunt nobis ab ipsum dicta, explicabo recusandae vitae
-                dolores molestias itaque consequuntur fuga iste possimus nulla
-                omnis suscipit! Autem cumque illo itaque?
+                Practice our trading Strategies and implement with dummy money until you get confidence for the live market. Also you will get traders advice on each trade you make.
+                
               </p>
             </div>
 
-            <div>
+              <div className={styles.hfull}>
               <div className={styles.feedbackCard}>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
-                  possimus a aut soluta aliquam voluptate nam! Culpa sit
-                  reiciendis nisi itaque perferendis ducimus maiores delectus.
+                “FigJam adds a whole new level of end-to-end collaboration—from brainstorming, research workshops, to design jams.”
                 </p>
 
-                <h4>Student Name</h4>
-                <p>Stockraja Student</p>
+                <span className={styles.card_profile}>
+                  <Image src='/logo.png' width={50} height={50} alt="feedback by"/>
+                  <div className={styles.feedback_by}>
+                    <p className="bolder">Pranit Patil</p>
+                    <p className="bold">Student at Stockraja</p>
+                  </div>
+                </span>
+                
               </div>
             </div>
           </div>
 
           <div className={styles.monthImage}>
             <div className={styles.stickyContainer}>
-              <div>
-                <Image
+            <Image
                   src="/month2.png"
                   alt="Stockraja Logo"
-                  width={500}
-                  height={500}
+                  width={700}
+                  height={700}
+                  // layout="fill"
                   className={styles.centerImage}
                 />
-              </div>
             </div>
           </div>
         </div>
         {/* Month Three */}
         <div className={styles.month}>
           <div className={styles.monthDetails}>
-            <div>
+            <div className={styles.hfull}>
               <h3 className="highlight">Month 3</h3>
               <p className="bold">Trading with real money under our guidence</p>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore
-                optio exercitationem rerum voluptatibus quibusdam quos animi
-                natus! Nesciunt suscipit ipsum, repudiandae consectetur
-                dignissimos deleniti vitae!
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Nesciunt nobis ab ipsum dicta, explicabo recusandae vitae
-                dolores molestias itaque consequuntur fuga iste possimus nulla
-                omnis suscipit! Autem cumque illo itaque?
+                Its Time to play in live market. Trade in live market under guidence of our traders. Learn how to maintain trading journal.
               </p>
             </div>
 
-            <div>
-              <div className={styles.feedbackCard}>
-                
+            <div className={styles.hfull}>
+            <div className={styles.feedbackCard}>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, perspiciatis ratione. Sunt quis eaque dolor praesentium sit iste, amet consectetur adipisicing elit. Est, perspiciatis ratione. 
+                “FigJam adds a whole new level of end-to-end collaboration—from brainstorming, research workshops, to design jams.”
                 </p>
-                
 
-                <p className="bold">Student Name</p>
-                <p>Stockraja Student</p>
+                <span className={styles.card_profile}>
+                  <Image src='/logo.png' width={50} height={50} alt="feedback by"/>
+                  <div className={styles.feedback_by}>
+                    <p className="bolder">Pranit Patil</p>
+                    <p className="bold">Student at Stockraja</p>
+                  </div>
+                </span>
+                
               </div>
             </div>
           </div>
 
           <div className={styles.monthImage}>
             <div className={styles.stickyContainer}>
-              <div>
-                <Image
+            <Image
                   src="/month3.png"
                   alt="Stockraja Logo"
-                  width={500}
-                  height={500}
+                  width={700}
+                  height={700}
+                  // layout="fill"
                   className={styles.centerImage}
                 />
-              </div>
             </div>
           </div>
         </div>
@@ -211,7 +205,7 @@ export default function Home() {
         </h2>
 
         <p className="subtitle">
-          Dont Miss This Golden Opportuinity.
+          If you not understand anything from our course you will get 100% moneyback.
         </p>
 
         <button>Contact US</button>

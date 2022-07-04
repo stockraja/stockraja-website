@@ -55,11 +55,14 @@
   margin-inline: 100px;
   height: 200vh;
   display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
 }
 
 .monthImage {
   /* background-color: blanchedalmond; */
-  width: 60%;
+  width: 65%;
   height: 200vh;
 
 }
@@ -76,15 +79,18 @@
 
 
 
+
+
 .monthDetails {
   /* background-color: aqua; */
-  width: 50%;
+  width: 400px;
+  /* width: 50%; */
 }
 
-.monthDetails div {
+.monthDetails .hfull {
   display: flex;
   height: 100vh;
-  padding-inline: 50px;
+  /* padding-inline: 50px; */
   text-align: left;
   flex-direction: column;
   vertical-align: middle;
@@ -101,10 +107,10 @@
 .feedbackCard {
   height: fit-content !important;
   /* margin: auto; */
-  padding: 25px;
+  padding: 24px 32px;
   background-color: white;
   width: 90%;
-  border-radius: 20px;
+  border-radius: 10px;
 
   border: 1px solid rgb(204, 204, 204);
   filter: drop-shadow(rgba(0, 0, 0, 0.067) 0px 1px 6px)
@@ -120,8 +126,24 @@
 }
 
 .feedbackCard p {
-  margin: 8px;
+  font-size: 18px;
+  margin: 0px;
 }
+
+.feedback_by {
+  margin-left: 1rem;
+}
+
+.card_profile {
+  margin-top: 16px;
+  height: auto;
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+
+
 
 
 .endNote {
@@ -172,12 +194,13 @@
   .about-image Image {
     margin: auto;
   }
+  .hfull {
+    height: auto !important;
+  }
 
   .courseSection {
-    margin-top: -100px;
+    padding-top: 100px;
     /* background-color: bisque; */
-  }
-  .courseSection {
     margin: 20px;
   }
 
@@ -197,6 +220,8 @@
     height: auto;
     position: relative;
   }
+
+
 
   .monthDetails {
     width: 100%;

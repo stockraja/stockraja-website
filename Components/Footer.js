@@ -8,7 +8,7 @@ const Footer = () => {
 			<div className={style.siteFooter}>
 			<div className={style.about}>
 				<h4>ABOUT</h4>
-				<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis reiciendis ipsam doloremque fuga? Accusamus asperiores ut reiciendis nemo praesentium amet? Reiciendis, labore. Magnam qui ipsa dolor harum! Fugiat officia, doloremque rem ipsum dolore ipsam ratione velit </p>
+				<p>We are a young team of fulltime Stockmarket Trader and Investor. Our mission is to spread awareness about stock market as well as other financial market. To go to roots of basics and take our students to a stage of professionalism. </p>
 			</div>
 
 			<div className={style.quickLinks}>
